@@ -1,0 +1,107 @@
+/* Header */
+.a1{
+    color: #009497;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.a1 p{
+    margin-top: 0; 
+    margin-bottom: auto;
+}
+.a2{
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+/* Appointment */
+.appoint{
+    background-image: url(img3.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    background-position: center;
+    max-width: 1300px;
+    z-index: 30;
+    min-height: 600px;
+}
+.con1{
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.6);
+    top: 100px;
+    left:3vw;
+}
+
+.con1 h1{
+    color: #009497;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid black;
+}
+.con1 p{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+button[type="submit"]{
+    padding: 1vw;
+    border-radius: 6px 6px 6px 6px;
+    border: transparent;
+    color: white;
+    background-color: #009497;
+}
+button[type="submit"]:hover{
+    background-color: #6577B3;
+    cursor: pointer;
+}
+
+/* Log In */
+.logbut{
+    position: fixed;
+    left:10px;
+    top:40%;
+}
+
+/* Doctors */
+.doc h1{
+    color:#009497;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.doc p{
+    color: #6577B3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.carousel-item h5,p{
+    color:black;
+    font-weight: bold;
+}
+
+/* Key Specialities */
+.Neu img{
+    border-radius: 150px 150px 150px 150px;
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* navigation Pane */
+.navigate a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.cont .h6{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
